@@ -109,7 +109,7 @@ top: 17px;
 }
 
 .objetivos-listado{
-	margin: 35px 0px;
+	margin: 35px 0;
 	padding: 0;
 }
 
@@ -238,7 +238,7 @@ margin: 1.2em 0 0.1em 0;
 }
 
 #nosotros {
-	background-image: url("../images/ouiplay.jpg");
+	background-image: url("../images/nosotros-fondo.jpg");
 }
 
 .separador-tmp {
