@@ -1420,7 +1420,7 @@ i.contact {
     opacity: 1;
 }
 .tp-loader {
-    background: url(style/images/loading.gif) no-repeat;
+    background: url(../images/loading.gif) no-repeat;
     background-color: #fff;
     margin: -15px -15px;
     top: 50%;
@@ -1433,13 +1433,13 @@ i.contact {
 }
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) { 
 	.tp-loader {
-	    background-image: url(style/images/loading@2x.gif)
+	    background-image: url(../images/loading@2x.gif)
 	}
 }
 .tp-bannertimer {
     width: 100%;
     height: 10px;
-    background: url(style/images/timer.png);
+    background: url(../images/timer.png);
     position: absolute;
     z-index: 200;
 }
@@ -1497,16 +1497,16 @@ i.contact {
     color: #FFF
 }
 #first {
-    background-image: url(style/images/art/parallax1.jpg)
+    background-image: url(../images/art/parallax1.jpg)
 }
 #second {
-    background-image: url(style/images/art/parallax2.jpg)
+    background-image: url(../images/art/parallax2.jpg)
 }
 #third {
-    background-image: url(style/images/art/parallax3.jpg)
+    background-image: url(../images/art/parallax3.jpg)
 }
 #fourth {
-    background-image: url(style/images/art/parallax4.jpg)
+    background-image: url(../images/art/parallax4.jpg)
 }
 .post-parallax {
     padding-top: 145px;
