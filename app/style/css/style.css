@@ -130,8 +130,10 @@ h6 {
     margin-bottom: 20px
 }
 .widget .section-title {
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     letter-spacing: normal;
+    font-style: normal;
+    font-weight: 400; 
 }
 .section-title span {
     font-family: 'Titillium Web', sans-serif;
@@ -310,7 +312,7 @@ i.contact {
 }
 .sub-footer {
     background: #2d3134;
-    padding: 35px 0;
+    
 }
 .sub-footer p {
     padding: 0;
@@ -2265,6 +2267,15 @@ input:focus:-ms-input-placeholder {
 	.footer-menu li {
 	    padding: 0 5px
 	}
+
+    .newsletter-footer.pull-right,
+    .estamos
+     {
+        border: 1px solid red;
+        float: none !important;
+        text-align: center;
+    }
+
 	.tab {
 	    display: block !important;
 	    margin: 0 !important;
