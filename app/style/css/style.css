@@ -2271,7 +2271,6 @@ input:focus:-ms-input-placeholder {
     .newsletter-footer.pull-right,
     .estamos
      {
-        border: 1px solid red;
         float: none !important;
         text-align: center;
     }
