@@ -137,7 +137,7 @@ top: 17px;
 /*Banner*/
 
 .ouiplay-bg {
-background-color: #2C2E3D;
+background-color: rgba(40, 40, 59, 0.7);
 padding: 10px;
 border-radius: 3px;	
 }
@@ -239,7 +239,7 @@ margin: 1.2em 0 0.1em 0;
 
 /*Parallax*/
 #nos-gusta {
-	background-image: url("../images/para.png");
+	background-image: url("../images/3.jpg");
 }
 
 #nosotros {
@@ -273,9 +273,27 @@ margin: 1.2em 0 0.1em 0;
 	margin-right: 10px;
 }
 
-.tp-caption.juego-regla{
-font-size: 30px;
+/*Banner*/
+.juego-regla{
+font-size: 58px;
 color: #fff;
+font-weight: bold;
 }
+
+.juego-regla-wrapper{
+padding: 16px 10px 10px;
+
+}
+
+.juego-texto {
+font-size: 30px;
+color:#bbb;	
+font-weight: 200;
+}
+
+.caption-oui {
+	border: 3px solid red;
+}
+
 
 
