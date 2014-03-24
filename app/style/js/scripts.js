@@ -241,7 +241,7 @@ $(function() {
       if (target.length) {
         $('html,body').animate({
           scrollTop: target.offset().top
-        }, 1000);
+        }, 1500, "easeOutBack");
         page(target.selector);
         return false;
       }
