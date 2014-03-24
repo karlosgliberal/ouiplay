@@ -242,6 +242,7 @@ $(function() {
         $('html,body').animate({
           scrollTop: target.offset().top
         }, 1000);
+        page(target.selector);
         return false;
       }
     }
