@@ -285,15 +285,13 @@ $(function(){
     $.each($('#form-contacto-uno').serializeArray(), function(i, field) {
       values[field.name] = field.value;
     });
-    function test(data){
-      return {"message":"ok"};
-    }
     $.ajax({
       dataType: 'jsonp',
       data: values,            
       jsonp: 'callback',
       url: 'http://localhost:3000/ouiplay?callback=?',           
       success: function(data) {
+        $('#alerta-contacto-uno').fadeIn('slow');
         console.log('success');
         //console.log(JSON.stringify(data));
       }
