@@ -732,6 +732,63 @@ i.contact {
 }
 
 /*-----------------------------------------------------------------------------------*/
+/*  PROCESS
+/*-----------------------------------------------------------------------------------*/
+.process {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.process li.process-item {
+    padding: 50px
+}
+.process li.process-item.border-top {
+    border-top: 1px solid #e3e3e3
+}
+.process li.process-item.border-bottom {
+    border-bottom: 1px solid #e3e3e3
+}
+.process li.process-item.border-right {
+    border-right: 1px solid #e3e3e3
+}
+.process li.process-item.border-left {
+    border-left: 1px solid #e3e3e3
+}
+.process li.process-item .number {
+    font-size: 60px;
+    font-family: 'Roboto Slab', serif;
+    color: #fa6c65;
+    font-weight: 300;
+    margin: 10px 25px 0 0;
+    float: left;
+    display: block;
+}
+.process li.process-item .info {
+    overflow: hidden
+}
+ul {
+    padding: 0 0 0 18px
+}
+ol {
+    padding: 0 0 0 20px
+}
+ul.circled {
+    padding: 0;
+    list-style: none;
+}
+ul.circled li:before {
+    content: '\e800';
+    margin-right: 10px;
+    font-weight: normal;
+    vertical-align: top;
+    padding-top: 1px;
+    display: inline-block;
+    font-family: 'fontello-circle';
+    color: #7AAF45;
+    font-size: 8px;
+}
+
+/*-----------------------------------------------------------------------------------*/
 /*	DIVIDERS
 /*-----------------------------------------------------------------------------------*/
 .divide0 {
