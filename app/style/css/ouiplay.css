@@ -148,6 +148,7 @@ top: 17px;
     vertical-align: top;
 }
 
+
 /*Banner*/
 
 .ouiplay-bg {
@@ -274,6 +275,17 @@ margin: 1.2em 0 0.1em 0;
 	float: right;
 }
 
+.alerta-no {
+	display: none;
+	-webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+}
+
+.h-auto {
+	height: 0;
+}
+
 /*Footer*/
 .logo-footer {
 	position: relative;
@@ -285,6 +297,10 @@ margin: 1.2em 0 0.1em 0;
 
 .social-footer li {
 	margin-right: 10px;
+}
+
+.footer-menu a:hover {
+	color: #7AAF45;
 }
 
 /*Banner*/
