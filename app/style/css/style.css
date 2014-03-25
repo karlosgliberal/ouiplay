@@ -1954,14 +1954,14 @@ input:focus:-ms-input-placeholder {
 .owl-slider-wrapper .owl-custom-nav .slider-prev {
     position: absolute;
     top: 50%;
-    left: 20px;
+    left: -50px;
     margin-top: -23px;
     pointer-events: auto;
 }
 .owl-slider-wrapper .owl-custom-nav .slider-next {
     position: absolute;
     top: 50%;
-    right: 20px;
+    right: -50px;
     margin-top: -23px;
     pointer-events: auto;
 }
@@ -1972,15 +1972,12 @@ input:focus:-ms-input-placeholder {
     -webkit-transition: all 200ms ease-in;
     -o-transition: all 200ms ease-in;
     -moz-transition: all 200ms ease-in;
-    background: rgba(0,0,0,0.4);
-    color: #f7f7f7;
+    color: #ccc;
     line-height: 1;
-    font-size: 20px;
+    font-size: 45px;
     padding: 12px 19px;
     width: auto;
     height: auto;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
 }
 .owl-slider-wrapper .owl-custom-nav .slider-prev:before,
 .owl-slider-wrapper .owl-custom-nav .slider-next:before {
@@ -2000,7 +1997,7 @@ input:focus:-ms-input-placeholder {
 }
 .owl-slider-wrapper .owl-custom-nav .slider-prev:hover,
 .owl-slider-wrapper .owl-custom-nav .slider-next:hover {
-    background: rgba(0,0,0,0.9)
+    color: #7AAF45;
 }
 .owl-slider-wrapper .owl-controls {
     margin: -40px 0 0 0

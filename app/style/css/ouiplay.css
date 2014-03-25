@@ -38,10 +38,15 @@ color: #AA5C79;
 .titular-white {
 	color: #fff;
 }
+
 .seccion-texto-contacto {
 	color: #fff;
     font-size: 18px;
     font-weight: 200;
+}
+
+.herramientas {
+	background-color: #eee;
 }
 
 /*Texturas*/
@@ -77,6 +82,15 @@ color: #AA5C79;
 
 
 /*General*/
+
+.inner-top {
+	padding-top: 40px; 
+}
+
+.inner-bottom {
+	padding-bottom: 40px; 
+}
+
 .center {
 	text-align: center;
 }
@@ -309,7 +323,6 @@ font-weight: 200;
     margin-top: 34px;
 }
 
-
 .items-title span {
     font-weight: 300;
     font-size: 14px;
@@ -326,4 +339,7 @@ font-weight: 200;
     color: #7AAF45;
 }
 
+.proyectos-slider .owl-slider-wrapper, .proyectos-slider .owl-controls {
+    margin: 0;
+}
 
