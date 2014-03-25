@@ -279,7 +279,6 @@ $(function(){
   $('#form-contacto-uno').submit(function() {
     // get all the inputs into an array.
     var $inputs = $('#form-contacto-uno :input');
-    console.log($inputs);
     // not sure if you wanted this, but I thought I'd add it.
     // get an associative array of just the values.
     var values = {};
@@ -293,10 +292,10 @@ $(function(){
       dataType: 'jsonp',
       data: values,            
       jsonp: 'callback',
-      url: 'http://localhost:3000/endpoint?callback=?',           
+      url: 'http://localhost:3000/ouiplay?callback=?',           
       success: function(data) {
         console.log('success');
-        console.log(JSON.stringify(data));
+        //console.log(JSON.stringify(data));
       }
     });
   });
