@@ -108,7 +108,7 @@ $(document).ready(function () {
         scrollName: 'scrollUp', // Element ID
         scrollDistance: 300, // Distance from top/bottom before showing element (px)
         scrollFrom: 'top', // 'top' or 'bottom'
-        scrollSpeed: 300, // Speed back to top (ms)
+        scrollSpeed: 600, // Speed back to top (ms)
         easingType: 'linear', // Scroll to top easing (see http://easings.net/)
         animation: 'fade', // Fade, slide, none
         animationInSpeed: 200, // Animation in speed (ms)
@@ -214,6 +214,7 @@ $(document).ready(function () {
         });
     });
 });
+
 /*-----------------------------------------------------------------------------------*/
 /*	PARALLAX MOBILE
 /*-----------------------------------------------------------------------------------*/
@@ -227,3 +228,48 @@ $(document).ready(function () {
         $('.parallax').addClass('mobile');
     }
 });
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  Scroll smoth
+/*-----------------------------------------------------------------------------------*/
+$(function() {
+  $('li a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top-52
+        }, 1500, "easeOutBack");
+        page(target.selector);
+        return false;
+      }
+    }
+  });
+});
+
+/*-----------------------------------------------------------------------------------*/
+/*  Owl.carousel
+/*-----------------------------------------------------------------------------------*/
+$(document).ready(function () {
+  var owl = $(".owl-portfolio-slider");
+
+  owl.owlCarousel({
+      navigation: false,
+      autoHeight: true,
+      slideSpeed: 300,
+      paginationSpeed: 400,
+      singleItem: true,
+      //navigationText: ["<i class='icon-left-open-mini'></i>", "<i class='icon-right-open-mini'></i>"]
+  });
+
+  // Custom Navigation Events
+  $(".slider-next").click(function () {
+      owl.trigger('owl.next');
+  });
+  $(".slider-prev").click(function () {
+      owl.trigger('owl.prev');
+  });
+});
+
