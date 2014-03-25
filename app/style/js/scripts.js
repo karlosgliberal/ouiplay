@@ -272,4 +272,33 @@ $(document).ready(function () {
       owl.trigger('owl.prev');
   });
 });
+/*-----------------------------------------------------------------------------------*/
+/*  Envio de correo
+/*-----------------------------------------------------------------------------------*/
+$(function(){       
+  $('#form-contacto-uno').submit(function() {
+    // get all the inputs into an array.
+    var $inputs = $('#form-contacto-uno :input');
+    console.log($inputs);
+    // not sure if you wanted this, but I thought I'd add it.
+    // get an associative array of just the values.
+    var values = {};
+    $.each($('#form-contacto-uno').serializeArray(), function(i, field) {
+      values[field.name] = field.value;
+    });
+    function test(data){
+      return {"message":"ok"};
+    }
+    $.ajax({
+      dataType: 'jsonp',
+      data: values,            
+      jsonp: 'callback',
+      url: 'http://localhost:3000/endpoint?callback=?',           
+      success: function(data) {
+        console.log('success');
+        console.log(JSON.stringify(data));
+      }
+    });
+  });
+});
 
