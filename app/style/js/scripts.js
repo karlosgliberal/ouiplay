@@ -240,12 +240,36 @@ $(function() {
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html,body').animate({
-          scrollTop: target.offset().top
+          scrollTop: target.offset().top-52
         }, 1500, "easeOutBack");
         page(target.selector);
         return false;
       }
     }
+  });
+});
+
+/*-----------------------------------------------------------------------------------*/
+/*  Owl.carousel
+/*-----------------------------------------------------------------------------------*/
+$(document).ready(function () {
+  var owl = $(".owl-portfolio-slider");
+
+  owl.owlCarousel({
+      navigation: false,
+      autoHeight: true,
+      slideSpeed: 300,
+      paginationSpeed: 400,
+      singleItem: true,
+      //navigationText: ["<i class='icon-left-open-mini'></i>", "<i class='icon-right-open-mini'></i>"]
+  });
+
+  // Custom Navigation Events
+  $(".slider-next").click(function () {
+      owl.trigger('owl.next');
+  });
+  $(".slider-prev").click(function () {
+      owl.trigger('owl.prev');
   });
 });
 
