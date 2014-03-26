@@ -620,8 +620,9 @@ i.contact {
 }
 .navbar-header .info {
     display: block;
-    padding-top: 5px;
     margin: 0;
+    padding-right: 10px;
+    padding-top: 11px;
 }
 .navbar-header .info li {
     display: inline;
