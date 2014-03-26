@@ -272,6 +272,7 @@ $(document).ready(function () {
       owl.trigger('owl.prev');
   });
 });
+
 /*-----------------------------------------------------------------------------------*/
 /*  Envio de correo
 /*-----------------------------------------------------------------------------------*/
@@ -308,4 +309,28 @@ $(function(){
   };
 
 });
+
+/*-----------------------------------------------------------------------------------*/
+/*  Sound egg 
+/*-----------------------------------------------------------------------------------*/
+$(document).ready(function () {
+  $('.navbar-brand').click(function(e){
+    var sound = new Howl({
+      urls: ['bicycle.mp3', 'bicycle.ogg', 'bicycle.wav'],
+      autoplay: false,
+      loop: false,
+      volume: 0.9,
+      onend: function() {
+        console.log('Finished!');
+      }
+    });
+    sound.play();
+  });
+});
+
+
+
+
+
+
 
