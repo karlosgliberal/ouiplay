@@ -240,7 +240,7 @@ $(function() {
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html,body').animate({
-          scrollTop: target.offset().top-52
+          scrollTop: target.offset().top-51
         }, 1500, "easeOutBack");
         page(target.selector);
         return false;
