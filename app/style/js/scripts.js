@@ -139,12 +139,6 @@ $(document).ready(function () {
 /*	STICKY NAVIGATION
 /*-----------------------------------------------------------------------------------*/
 $(document).ready(function () {
-      console.log($('.is-sticky'));
-  if($('.is-sticky').length == 0){
-    console.log('movida');
-  }else{
-        console.log('nomodida');
-  }  
   $(".navbar:not(.basic) .navbar-collapse").sticky({
       topSpacing: 0
   });

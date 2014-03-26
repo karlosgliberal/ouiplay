@@ -40,6 +40,7 @@
               .css('position', '')
               .css('top', '');
             s.stickyElement.parent().removeClass(s.className);
+            $('#logo-resilente').fadeOut('slow');
             s.currentTop = null;
           }
         }
@@ -61,6 +62,7 @@
             }
 
             s.stickyElement.parent().addClass(s.className);
+            $('#logo-resilente').fadeIn('slow');
             s.currentTop = newTop;
           }
         }
