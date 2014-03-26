@@ -247,6 +247,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', end
 margin: 1.2em 0 0.1em 0;
 
 }
+
+.titular-nosotros-caja {
+	background-color: rgba(0,0,0,0.3);
+
+}
+
+.titular-nosotros-white {
+color: #fff;
+}
+
+
 .contacto {
 	padding-top: 30px;
 }
