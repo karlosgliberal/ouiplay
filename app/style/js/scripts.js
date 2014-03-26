@@ -250,7 +250,7 @@ $(function() {
 });
 
 /*-----------------------------------------------------------------------------------*/
-/*  Owl.carousel
+/*  Owl.carousel //
 /*-----------------------------------------------------------------------------------*/
 $(document).ready(function () {
   var owl = $(".owl-portfolio-slider");
@@ -314,9 +314,9 @@ $(function(){
 /*  Sound egg 
 /*-----------------------------------------------------------------------------------*/
 $(document).ready(function () {
-  $('.navbar-brand').click(function(e){
+  $('#moc-moc').click(function(e){
     var sound = new Howl({
-      urls: ['bicycle.mp3', 'bicycle.ogg', 'bicycle.wav'],
+      urls: ['style/sound/bicycle.mp3', 'style/sound/bicycle.ogg', 'style/sound/bicycle.wav'],
       autoplay: false,
       loop: false,
       volume: 0.9,
