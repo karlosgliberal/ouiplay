@@ -189,6 +189,7 @@ module.exports = function (grunt) {
           src: [
             '*.{ico,png,txt}',
             '.htaccess',
+            'style/sound/bicycle.*',
             'style/type/{,*/}*.*',
             'style/type/fontello/{,*/}*.*',
             'style/js/jquery.themepunch.*',
