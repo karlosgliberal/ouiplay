@@ -277,12 +277,21 @@ $(document).ready(function () {
 /*-----------------------------------------------------------------------------------*/
 $(function(){       
   $('#form-contacto-uno').submit(function() {
-    // get all the inputs into an array.
     var $inputs = $('#form-contacto-uno :input');
-    // not sure if you wanted this, but I thought I'd add it.
-    // get an associative array of just the values.
+    envioCorreo($inputs, '#alerta-contacto-uno');
+  });
+  $('#form-contacto-dos').submit(function() {
+    var $inputs = $('#form-contacto-dos :input');
+    envioCorreo($inputs, '#alerta-contacto-dos');
+  });
+  $('#form-contacto-tres').submit(function() {
+    var $inputs = $('#form-contacto-tres :input');
+    envioCorreo($inputs, '#alerta-contacto-tres');
+  });
+
+  var envioCorreo =function(form, id){
     var values = {};
-    $.each($('#form-contacto-uno').serializeArray(), function(i, field) {
+    $.each($(form).serializeArray(), function(i, field) {
       values[field.name] = field.value;
     });
     $.ajax({
@@ -291,11 +300,12 @@ $(function(){
       jsonp: 'callback',
       url: 'http://localhost:3000/ouiplay?callback=?',           
       success: function(data) {
-        $('#alerta-contacto-uno').fadeIn('slow');
+        $(id).fadeIn('slow');
         console.log('success');
         //console.log(JSON.stringify(data));
       }
     });
-  });
+  };
+
 });
 

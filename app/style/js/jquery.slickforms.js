@@ -83,25 +83,25 @@
 
 				// All validation complete - Check if any errors exist
 				// If has errors
-				if ($('.error',$form).length) {
-					masonryHeight();
-					$('.btn-submit',this).before($error.clone().text(textError));
-				} else {
-					if(defaults.ajaxSubmit == true){
+				// if ($('.error',$form).length) {
+				// 	masonryHeight();
+				// 	$('.btn-submit',this).before($error.clone().text(textError));
+				// } else {
+				// 	if(defaults.ajaxSubmit == true){
 						
-						$(this).addClass('submit').after($loading.clone());
-						$('.defaultText',$form).dcDefaultText({action: 'remove'});
-						$.post(formAction, $(this).serialize(),function(data){
-							$('.loading').fadeOut().remove();
-							$('.response').html(data).fadeIn();
-							var x = horig + defaults.successH;
-							$('.boxes.masoned').animate({height: x+'px'},400);
-							$('fieldset',this).slideUp();
-						});
-					} else {
-						$form.submit();
-					}
-				}
+				// 		$(this).addClass('submit').after($loading.clone());
+				// 		$('.defaultText',$form).dcDefaultText({action: 'remove'});
+				// 		$.post(formAction, $(this).serialize(),function(data){
+				// 			$('.loading').fadeOut().remove();
+				// 			$('.response').html(data).fadeIn();
+				// 			var x = horig + defaults.successH;
+				// 			$('.boxes.masoned').animate({height: x+'px'},400);
+				// 			$('fieldset',this).slideUp();
+				// 		});
+				// 	} else {
+				// 		$form.submit();
+				// 	}
+				// }
 				// Prevent form submission
 				return false;
 			});
