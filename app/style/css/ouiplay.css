@@ -315,15 +315,11 @@ color: #fff;
 
 /*Banner*/
 .juego-texto-juego{
-font-size: 58px;
+font-size: 48px;
 color: #fff;
 font-weight: bold;
 }
 
-.juego-regla-wrapper{
-/*padding: 16px 10px 10px;*/
-
-}
 
 .juego-texto {
 font-size: 30px;
