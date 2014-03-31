@@ -342,7 +342,6 @@ font-weight: 200;
     font-weight: bold;
     letter-spacing: 1px;
     line-height: 28px;
-    margin-top: 34px;
 }
 
 .items-title span {
@@ -364,13 +363,17 @@ font-weight: 200;
 .proyectos-slider .owl-slider-wrapper, .proyectos-slider .owl-controls {
     margin: 0;
 }
+.inner-proyecto {
+	margin: 20px 0px;
+}
 
 /*Menu*/
 #logo-resilente {
-	padding-top: 5px;
+	padding-top: 9px;
 	display: none;
 }
 
+/*Sonido*/
 .sonido {
 width: 40px;
 height: 40px;
