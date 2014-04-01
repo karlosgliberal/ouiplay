@@ -261,6 +261,12 @@ color: #fff;
 	padding-top: 30px;
 }
 
+.mapa {
+	height: 400px;
+	background-image: url("../images/mapa.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
+}
 
 /*Parallax*/
 #nos-gusta {
