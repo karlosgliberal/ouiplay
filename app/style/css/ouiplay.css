@@ -424,3 +424,7 @@ left: 47%;
  padding: 10px 0px;
 }
 
+.black-wrapper {
+	background-color: rgba(48, 53, 56, 0.97);
+}
+
