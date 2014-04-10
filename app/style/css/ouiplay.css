@@ -1,6 +1,18 @@
 
 
 
+/*Media*/
+@media (max-width: 767px){
+	h2 {
+	line-height: 43px;
+	}
+}
+
+
+.navbar-nav > li > a {
+font-size: 13px;
+}
+
 .servicios-sub {
 	font-size: 35px;
 }
