@@ -222,7 +222,7 @@ background-color: #fff;
 }
 
 .objetivos-envio {
-	border-top: 1px solid #9B9B9B;
+	/*border-top: 1px solid #9B9B9B;*/
 	margin: 0 18%;
 }
 
@@ -408,4 +408,7 @@ top: 47%;
 left: 47%;
 }
 
+.sub-footer {
+ padding: 10px 0px;
+}
 
