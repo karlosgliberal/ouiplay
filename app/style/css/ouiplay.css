@@ -16,6 +16,10 @@ background-color: #DCAD47;
 	background-color: #fff;
 }
 
+.wine {
+	background-color: #AA5C79;
+}
+
 
 .burn {
 	color: #AC5C79;
@@ -28,6 +32,8 @@ color: #7AAF45;
 .titular-verde-claro {
 	color: #ABBE49;
 }
+
+
 .titular-naranja{
 color: #DCAD47;	
 }
@@ -80,6 +86,9 @@ color: #AA5C79;
 	border-top: 15px solid #ABBE49;
 }
 
+.arrow-down-wine {
+	border-top: 15px solid #AA5C79;
+}
 
 /*General*/
 
@@ -270,7 +279,7 @@ color: #fff;
 
 /*Parallax*/
 #nos-gusta {
-	background-image: url("../images/burbujas1.jpg");
+	background-image: url("../images/burbujas-u.jpg");
 }
 
 #nosotros-p {
