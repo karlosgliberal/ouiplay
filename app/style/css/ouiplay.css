@@ -425,3 +425,11 @@ left: 47%;
 .black-wrapper {
 	background-color: rgba(48, 53, 56, 0.97);
 }
+
+.post-title {
+font-size: 18px;
+}
+
+.post-title a:hover {
+color: rgba(220, 173, 71, 0.99);
+}
