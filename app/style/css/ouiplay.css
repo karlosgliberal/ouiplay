@@ -76,6 +76,10 @@ color: #AA5C79;
     top: -1px;
 }
 
+.rounded {
+	border-radius: 50%;
+}
+
 /*Texturas*/
 .textura {
 	background-color: #ccc;
