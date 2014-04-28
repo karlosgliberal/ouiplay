@@ -1,4 +1,4 @@
-
+.black-wrapper input
 /*-----------------------------------------------------------------------------------*/
 /*	RESET
 /*-----------------------------------------------------------------------------------*/
@@ -1768,7 +1768,6 @@ textarea {
 .parallax button,
 .parallax select,
 .parallax textarea,
-.black-wrapper input,
 .black-wrapper button,
 .black-wrapper select,
 .black-wrapper textarea {

@@ -438,3 +438,16 @@ font-size: 18px;
 color: rgba(220, 173, 71, 0.99);
 }
 
+.btn-mini {
+padding: 5px 10px 7px 12px;
+}
+
+
+.newsletter-footer input::-webkit-input-placeholder {
+    color:    #888 !important;
+   
+}
+.newsletter-footer input:-moz-placeholder {
+    color:    #888 !important;
+  
+}
