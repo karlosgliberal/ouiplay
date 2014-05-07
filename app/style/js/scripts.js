@@ -299,10 +299,10 @@ $(function(){
       dataType: 'jsonp',
       data: values,            
       jsonp: 'callback',
-      url: 'http://localhost:3000/ouiplay?callback=?',           
+      url: 'http://46.105.116.39:4300/ouiplay?callback=?',           
       success: function(data) {
         $(id).fadeIn('slow');
-        console.log('success');
+        // console.log('success');
         //console.log(JSON.stringify(data));
       }
     });
@@ -321,7 +321,6 @@ $(document).ready(function () {
       loop: false,
       volume: 0.9,
       onend: function() {
-        console.log('Finished!');
       }
     });
     sound.play();
