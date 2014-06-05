@@ -449,5 +449,33 @@ padding: 5px 10px 7px 12px;
 }
 .newsletter-footer input:-moz-placeholder {
     color:    #888 !important;
-  
+}
+
+
+.btn-green:hover {
+	opacity: 0.8;
+}
+
+.title-ouiplay {
+	text-indent: -99999px;
+	margin: 0;
+	padding: 0;
+	font-size: 1px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.creditos {
+	background-color: #292D30;
+	color: #6B6B6B;
+	padding: 10px;
+	font-size: 14px;
+}
+
+.creditos-textos a {
+	color: #BEBCBC;
+}
+.creditos-textos a:hover {
+	opacity: 0.7 !important;
 }
